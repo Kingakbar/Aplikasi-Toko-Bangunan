@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins';
+    background-color: #F5F6FA;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dropdown {
+    text-decoration: none;
+}
+
+.nav-item p {
+    font-size: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .card_subtitle {
+    color: #007bff;
+}
+
+
+.card .ic_box {
+    color: #8280FF;
+}
+
+.card .ic_up {
+    color: #4AD991;
+}
+
+.card .ic_down {
+    color: #FF9871;
+}
+
+.card .ic_user {
+    color: #FEC53D;
+}
+
+
+.card h4 {
+    font-weight: 500;
+}
+
+.card .circle_box {
+    height: 150px;
+    width: 150px;
+    background-color: #E4E4FF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .circle_up {
+    height: 150px;
+    width: 150px;
+    background-color: #D9F7E7;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .circle_down {
+    height: 150px;
+    width: 150px;
+    background-color: #FFDED2;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .circle_user {
+    height: 150px;
+    width: 150px;
+    background-color: #FEF2D6;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+
+.angka_barang {
+    color: #00B69B;
+    font-size: 30px;
+}
+
+.angka_barang span {
+    color: #F93C65;
+    font-size: 30px;
+}
+
+.link_detail {
+    height: 50px;
+    width: 100%;
+    background-color: #007bff;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.link_detail .btn-detail {
+    color: white;
+    text-decoration: none;
+}
+
+.link_detail .btn-detail:hover {
+    color: #FF8743;
+}
+
+.login_box {
+    background-color: white;
+}
+
+.login_box input {
+    border-radius: 10px;
+}
+
+.register {
+    background-color: #FF9871;
+    color: white;
+    text-decoration: none;
+}
+
+.register:hover {
+    background-color: #cc7859;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .card_subtitle {
+        text-align: center;
+    }
+}
